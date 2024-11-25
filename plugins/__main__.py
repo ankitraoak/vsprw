@@ -25,7 +25,7 @@ async def _start():
     except Exception as e:
         LOGGER.error(f"Error during batch loading: {e}")
 
-    await app.send_message(7224758848, "I am Alive")
+    await app.send_message(6804641253, "I am Alive")
     await idle()
 
 if __name__ == "__main__":
