@@ -333,7 +333,7 @@ async def load_batches_on_start():
     except Exception as e:
         print(f"Error loading batches on startup: {e}")
         
-scheduler.start()
+    scheduler.start()
 
 @Client.on_message(filters.command("restart"))
 async def restart_bot(bot, message):
