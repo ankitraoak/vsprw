@@ -40,15 +40,15 @@ import os
 from plugins.modules.subscription import check_subscription
 
 # MongoDB Configuration
-MONGO_URI = "mongodb+srv://heeokumailseptember:nfOkF8F4zn1FIAFQ@cluster0.xb62l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://Rajahd41:Rajahd41@cluster0.omrv9cu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = AsyncIOMotorClient(MONGO_URI)
 db = client["bot_database"]
 config_collection = db["batch_configs"]
 
 # Global Variables
 scheduler = AsyncIOScheduler(timezone="Asia/Kolkata")
-AUTH_USERS = [7224758848,7478730519]
-LOG_CHANNEL_ID = -1002336806073
+AUTH_USERS = [7224758848,7513565186,6804641253,5427627648]
+LOG_CHANNEL_ID = -1002093862577
 
 def get_current_date():
     ist = pytz.timezone('Asia/Kolkata')
